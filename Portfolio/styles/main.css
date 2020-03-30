@@ -10,14 +10,16 @@ body {
     background-color:rgb(241, 146, 176);
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 header,footer {
     background-color:rgb(208,128,211);
     color: white;
-    height: 100px;
+    height: 120px;
     text-align: center;
-    padding: 30px 10px 20px 10px;
+    padding: 30px 10px 30px 10px;
 }
 
 h1 {font-size: 2.5em;
@@ -26,5 +28,37 @@ h1 {font-size: 2.5em;
 nav {
     border-top: 3px dashed #fae4ed;
     border-bottom: 3px #fae4ed;
-    margin-top: 4px;
+    margin-top: 3px;
+}
+        
+article img {
+   float:left;
+}
+
+.right-content {float:left;
+}
+
+article {margin-bottom: 16px;}
+
+nav a {
+background-color: #f5b49a;
+color: black;
+padding: 8px;
+border: thin solid #f3a6c0;
+text-decoration: none;
+text-align: center;
+display: block;
+margin: 20px 20px;
+width: 100px;
+float:left;
+}
+nav a:hover {
+background-color:black;
+color: #f5b49a;
+}
+nav a:active {
+font-weight: bold;
+}
+nav a :visited {
+color: blueviolet;
 }
