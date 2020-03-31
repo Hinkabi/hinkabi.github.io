@@ -1,0 +1,35 @@
+* {color: rgb(255, 149, 202);
+}
+
+body 
+{
+font-family: 'Comic Neue', cursive;
+background-color: rgb(105, 0, 136);}
+
+.icecream 
+{
+width: 100%;
+margin: 30px;
+}
+
+.btn{
+    color: black;
+    background-color: rgb(227, 104, 227);
+    text-decoration-line: none;
+    margin-left: 15px;
+    
+}
+
+.btn:active {
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+.btn:hover {
+background-color:pink ;
+color: black;
+text-decoration: none;
+}
+
+
+
