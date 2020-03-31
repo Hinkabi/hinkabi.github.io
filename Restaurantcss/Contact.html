@@ -13,39 +13,45 @@ Most recent revision: March 31st 2020
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="restaurantstyles.css" type="text/css">
+
+        <style>
+            body {text-align: center;}
+        </style>
     </head>
+
     <body>
         <!--title-->
         <header>
             <h1> Sweet Treats</h1>
         </header>
-        <nav class="row">
-            <p class="col-2 btn"> 
-            <a href="index.html">Home</a> </p>
+        <nav style="text-align:center">
+            <a class="btn" href="index.html">Home</a> 
             
-            <p class="col-2 btn">
-            <a href="Menu.html">Menu</a> </p>
+            <a class="btn" href="Menu.html">Menu</a> 
 
-            <p class="col-2 btn">
-            <a href="Contact.html">Contact Us</a> </p>
+            <a class="btn" href="">Contact Us</a> 
         </nav>
         
         <form action="submit.html" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"> 
-            <label for="phone">Phone Number:</label>
-            <input type="text" id="phone" name="phone">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email">
-            
-            <label for="reason">Reason for Inquiry:</label>
-        <select id="reason" name="reason">
+        <fieldset>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br> 
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+        </fieldset><br>
+
+        <fieldset>
+            <label for="reason">Reason for Inquiry:</label><br>
+            <select id="reason" name="reason">
             <option value="Catering">Catering</option>
             <option value="Rental">Rental Space</option>
             <option value="feedback">Feedback</option>
-        </select>
+        </select><br>
+        </fieldset> 
         
-        <label for="other">Other Inquires</label>
+        <label for="other">Other Inquires</label><br>
         <textarea id="other" name="other"></textarea> 
         
     <fieldset>
