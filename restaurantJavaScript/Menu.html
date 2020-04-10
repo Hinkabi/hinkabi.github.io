@@ -1,0 +1,187 @@
+    <!DOCTYPE html>
+    <!--
+    Name: Hannah Inkabi
+    Date Created: Today's Date
+    Most recent revision:
+    -->
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Menu</title>
+            <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="restaurantstyles.css" type="text/css">
+
+            <style>
+                .img-thumbnail {
+                    max-width: 80%;
+                    max-height: auto
+                }
+                .rounded-circle {
+                    max-width: 80%;
+                    max-height: auto
+                }
+                .carousel-caption {
+                color:hotpink;
+                background-color: rgba(103, 0, 177,.8);
+                }
+
+
+
+            </style>
+        </head>
+
+        <body>
+            <!--Title-->
+            <header>
+                <h1> Sweet Treats</h1>
+                <hr />
+            </header>
+
+            <div class="pill-nav">
+                <a class="active" href="index.html">Home</a>
+                <a href="">Menu</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+            <!--Menu Items-->
+            <div class="container">
+                <h1>Menu</h1>
+
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://images.unsplash.com/photo-1506224477000-07aa8a76be20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="Doughnuts">
+                      <div class="carousel-caption">
+                        <h3>We're opening a new location!</h3>
+                        <p>Summer 2020</p>
+                      </div>
+                    </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://images.unsplash.com/photo-1583823062258-f57312ee7ea1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Cupcakes">
+                      <div class="carousel-caption">
+                        <h3>Whats's New</h3>
+                        <p>We're rolling out our seasonal menu, with special options for this season.</p>
+                      </div>
+                    </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="https://images.unsplash.com/photo-1541658016709-82535e94bc69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="TSG Special Brew">
+                      <div class="carousel-caption">
+                        <h3>Drink of the Month!</h3>
+                        <p>TSG Special Brew</p>
+                      </div>
+                      </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                
+                
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 menu-item">
+                            <h2>Fluffy Pancakes $10</h2>
+                            <img src="https://cdn.pixabay.com/photo/2019/02/17/00/41/pancake-4001357__340.jpg" class="rounded-circle" alt="pancakes">
+                            <p>Cupcake ipsum dolor sit amet jelly beans jelly-o cheesecake. Macaroon candy canes soufflé jelly beans tootsie roll. Macaroon toffee pudding chupa</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 menu-item">
+                            <h2>Red Velvet Cake $8</h2>
+                            <img src="https://cdn.pixabay.com/photo/2020/03/10/03/49/red-velvet-cake-4917734_960_720.jpg" class="rounded-circle" alt="Red Velvet Cake">
+                            <p>Cupcake ipsum dolor sit. Amet cotton candy danish sweet roll cake. Brownie gummi bears muffin. Pastry pie cake tiramisu croissant gummies</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 menu-item">
+                            <h2>Cinnamon Bun $6</h2>
+                            <img src="https://images.unsplash.com/photo-1583527976767-5399024eeb05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="rounded-circle" alt="cinnamon bun">
+                            <p>Cupcake ipsum dolor sit. Amet cotton candy danish sweet roll cake. Brownie gummi bears muffin. Pastry pie cake tiramisu croissant gummies</p>
+                        </div>
+                    <div class="col-lg-4 col-md-6 menu-item">
+                        <h2>Rainbow Cake $4</h2>
+                        <img src="https://images.unsplash.com/photo-1572451479139-6a308211d8be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="rounded-circle" alt="rainbow cupcake">
+                        <p>Cupcake ipsum dolor sit. Amet cotton candy danish sweet roll cake. Brownie gummi bears muffin. Pastry pie cake tiramisu croissant gummies</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 menu-item">
+                        <h2>Marshmallow Crisp $2.50</h2>
+                        <img src="https://images.unsplash.com/photo-1556910147-87fd2569a360?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" class="rounded-circle" alt="rice crispy">
+                         <p>Cupcake ipsum dolor sit amet jelly beans jelly-o cheesecake. Macaroon candy canes soufflé jelly beans tootsie roll. Macaroon toffee pudding chupa</p>
+                    </div>
+                     <div class="col-lg-4 col-md-6 menu-item">
+                    <h2>Fudge Brownies $5</h2>
+                    <img src="https://images.unsplash.com/photo-1512325605119-b10de50ecba9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80" class="rounded-circle" alt="brownies">
+                    <p>Cupcake ipsum dolor sit amet jelly beans jelly-o cheesecake. Macaroon candy canes soufflé jelly beans tootsie roll. Macaroon toffee pudding chupa</p>
+                     </div>
+                 </div>
+
+         
+            <table class="table table-borderless">
+                <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Drinks</th>
+                  <th scope="col">Price</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Water</td>
+                  <td>$ 2</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Coffee</td>
+                  <td>$ 5</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Hot Chocolate</td>
+                  <td>$ 5</td>
+                  </tr>
+              <tr>
+                  <th scope="row"></th>
+                  <td>Milkshake</td>
+                  <td>$ 10</td>
+                </tr>
+            </tbody>
+            </table>
+            
+
+    <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+            <footer>
+                <hr />
+                <p>12345 Bay Street, Staten Island, NY 10000</p>
+                <p>123-456-7890</p>
+
+            </footer>
+        </body>
+    </html>
+
+

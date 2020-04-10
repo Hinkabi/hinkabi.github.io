@@ -1,0 +1,45 @@
+* {color: rgb(255, 149, 202);
+}
+
+body 
+{
+font-family: 'Comic Neue', cursive;
+background-color: rgb(105, 0, 136);}
+
+.icecream 
+{
+width: 100%;
+margin: 30px;
+}
+
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 3px;
+    
+  }
+  
+  .pill-nav a:hover {
+    background-color: pink;
+    color: black;
+  }
+  
+  .pill-nav a.active {
+    background-color: rgb(227, 104, 227);
+    color: white;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    } 
+
+    .row {
+    border: 2px solid dashed;
+    }
