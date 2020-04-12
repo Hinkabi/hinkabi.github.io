@@ -6,20 +6,15 @@ body
 font-family: 'Comic Neue', cursive;
 background-color: rgb(105, 0, 136);}
 
-.icecream 
-{
-width: 100%;
-margin: 30px;
-}
-
 .pill-nav a {
     display: inline-block;
-    color: black;
+    color:black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 3px;
+    justify-content: center;
     
   }
   
@@ -40,6 +35,5 @@ img {
     border-radius: 5px;
     } 
 
-    .row {
-    border: 2px solid dashed;
-    }
+
+

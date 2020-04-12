@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lucky 7's</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
+</head>
+<body>
+<h1>Lucky 7's</h1>
+Starting bet: <input id="firstNumber" type="number"><br><br>
+<br><br>
+<button id="calculate" onClick="letsWin()">Play</button>
+<hr>
+<div class="container">
+<table class="table table-bordered">
+  <tr>
+    <td>Starting Bet</td>
+    <td><p id="startingBet"></p></td>
+  </tr>
+  <tr>
+    <td>Total Rolls Before Going Broke</td>
+    <td><p id="totalRoll"></p></td>
+  </tr>
+  <tr>
+    <td>Highest Amount Won</td>
+    <td><p id="highestWon"></p></td>
+  </tr>
+  <tr>
+    <td>Roll Count at Highest Amount Won</td>
+    <td><p id="rollCountHighestWon"></p></td>
+  </tr>
+</table>
+</div>
+
+<script type="text/JavaScript" src="myscript.js"></script>
+</body>
+</html>

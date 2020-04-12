@@ -9,6 +9,8 @@ Most recent revision: March 31st 2020
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script type="text/Javascript" src="restaurant.js">
+        </script>
         <title>Contact Us</title>
         <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -30,66 +32,61 @@ Most recent revision: March 31st 2020
             <h1> Sweet Treats</h1>
         </header>
         <div class="pill-nav">
-            <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i></a>
+            <a class="nav-link" href="index.html"><img src="img/home.svg" alt="home"></a>
             <a href="Menu.html">Menu</a>
             <a href="Contact.html">Contact</a>
         </div>
         <br>
         
-        <form action="submit.html" method="POST">
-         <div class="container">
-            <form>
-              <div class="row">
-                <div class="col">
-                  <input type="text" class="form-control" id="email" placeholder="Please enter your name" name="email">
-                </div>
-              </div>
-            </form>
+        <form class="d-flex justify-content-center align-items-center container">
+         <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control">
             <br>
-            
-            <form>
-              <div class="form-row">
-                <div class="col">
-                  <input type="text" class="form-control" id="email" placeholder="Please enter your  phone number" name="email">
+              <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                  <input type="number" id="phone" name="number" class="form-control">
                   <br>
-                  <input type="text" class="form-control" id="email" placeholder="Enter email a valid email" name="email">
-                </div>
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" class="form-control">
               </div>
               <br>
-              <div class="form-group">
-              <label for="exampleFormControlSelect1">Reason for Inquiry</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <div>
+              <label for="contact">Reason for Inquiry</label>
+              <select id="contact" name="contact" class="form-control">
                 <option>Catering</option>
                 <option>Rental Space</option>
                 <option>Feedback</option>
               </select>
               <br>
               <label for="comment">Comment:</label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <textarea rows="5" id="comment" class="form-control"></textarea>
             </div>
           <h3>Have you been to this Restaurant?</h3>
-          <div class="form-check form-check-inline">
-           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Yes</label>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">No</label>
+          <div>
+           <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label for="inlineRadio1">Yes</label>
+          <div>
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label for="inlineRadio2">No </label>
             </div>
             
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">M</label>
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">T</label>
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">W</label>
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">Th</label>
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">F</label>
-          </div>
-            </form>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
+            <input type="checkbox" value="option1">
+            <label for="inlineCheckbox1">M</label>
+            <input type="checkbox"  value="option1">
+            <label for="inlineCheckbox2">T</label>
+            <input type="checkbox"  value="option1">
+            <label for="inlineCheckbox2">W</label>
+            <input type="checkbox" value="option1">
+            <label for="inlineCheckbox2">Th</label>
+            <input type="checkbox"  value="option1">
+            <label for="inlineCheckbox2">F</label>
+        </form>
+            </div>
+            </div>
+            <button onClick="formSent()">Submit</button>
+            <button onClick="formRefresh()">Refresh</button>
+          
           
           </body>
           </html>
